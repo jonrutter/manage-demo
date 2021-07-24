@@ -1,13 +1,54 @@
-body {
+:root {
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+
+  --red: hsl(12, 88%, 59%);
+  --blue: hsl(228, 39%, 23%);
+
+  --grey: hsl(227, 12%, 61%);
+  --grey-light: hsl(0, 0%, 98%);
+  --blue-dark: hsl(233, 12%, 13%);
+  --peach-light: hsl(13, 100%, 96%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  overflow: visible;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-transform: none;
+  -webkit-appearance: button;
 }
