@@ -16,7 +16,7 @@ import { links } from '../../nav-links';
 import NavDropdown from '../NavDropdown';
 
 const Navbar = () => {
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
 
   const closeNavFromBody = (e) => {
     if (e.target.classList.contains('no-scroll')) {
