@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // styles
 import s from './Navbar.module.css';
@@ -12,8 +12,29 @@ import SiteLogo from '../../images/logo.svg';
 // data
 import { links } from '../../nav-links';
 
+// components
+import NavDropdown from '../NavDropdown';
+
 const Navbar = () => {
-  const [navOpen, setNavOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(true);
+
+  const closeNavFromBody = (e) => {
+    if (e.target.classList.contains('no-scroll')) {
+      setNavOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (navOpen) {
+      document.querySelector('body').classList.add('no-scroll');
+      document.addEventListener('click', closeNavFromBody);
+    } else {
+      document.querySelector('body').classList.remove('no-scroll');
+    }
+    return () => {
+      document.removeEventListener('click', closeNavFromBody);
+    };
+  }, [navOpen]);
 
   return (
     <div className={s.wrapper}>
@@ -36,6 +57,7 @@ const Navbar = () => {
         >
           {navOpen ? <FaTimes /> : <FaBars />}
         </button>
+        {navOpen && <NavDropdown />}
       </nav>
     </div>
   );
