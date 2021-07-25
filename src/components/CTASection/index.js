@@ -4,8 +4,11 @@ import React from 'react';
 import s from './CTASection.module.css';
 
 const CTASection = () => (
-  <div>
-    <h2>CTA Section</h2>
+  <div className={s.wrapper}>
+    <section className={s.content}>
+      <h2 className={s.title}>Simplify how your team works today.</h2>
+      <button className={s.btn}>Get Started</button>
+    </section>
   </div>
 );
 

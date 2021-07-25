@@ -1,0 +1,51 @@
+.wrapper {
+  background: url('../../images/bg-simplify-section-mobile.svg') no-repeat
+      center left / 20%,
+    var(--red);
+  color: white;
+  padding: 5rem var(--x-padding);
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+}
+
+.btn {
+  background-color: white;
+  color: var(--red);
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  box-shadow: var(--cta-shadow-dark);
+}
+
+.btn:hover {
+  color: #f69175;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    background-image: url('../../images/bg-simplify-section-desktop.svg');
+    background-size: cover;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .title {
+    text-align: left;
+  }
+}
