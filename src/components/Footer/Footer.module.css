@@ -143,6 +143,10 @@
     margin-right: 1rem;
   }
 
+  .msg {
+    position: absolute;
+  }
+
   .copyright,
   .form {
     justify-self: end;
