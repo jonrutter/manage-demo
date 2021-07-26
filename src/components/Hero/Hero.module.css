@@ -1,0 +1,34 @@
+.wrapper {
+  padding: 1rem var(--x-padding);
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.right {
+  order: 1;
+}
+
+.left {
+  order: 2;
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .right {
+    order: 2;
+  }
+
+  .left {
+    order: 1;
+  }
+}
