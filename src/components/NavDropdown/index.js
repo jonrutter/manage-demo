@@ -4,7 +4,7 @@ import React from 'react';
 import s from './NavDropdown.module.css';
 
 // data
-import { links } from '../../nav-links';
+import { links } from '../../data';
 
 const NavDropdown = () => {
   return (

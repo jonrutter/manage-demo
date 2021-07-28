@@ -10,7 +10,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import SiteLogo from '../../images/logo.svg';
 
 // data
-import { links } from '../../nav-links';
+import { links } from '../../data';
 
 // components
 import NavDropdown from '../NavDropdown';
@@ -54,6 +54,7 @@ const Navbar = () => {
         <button
           className={s.toggleBtn}
           onClick={() => setNavOpen((prev) => !prev)}
+          aria-label="Toggle navigation dropdown menu"
         >
           {navOpen ? <FaTimes /> : <FaBars />}
         </button>
