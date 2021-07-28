@@ -1,0 +1,104 @@
+.wrapper {
+  padding: 0rem var(--x-padding) 3rem;
+}
+
+.title {
+  text-align: center;
+  color: var(--blue);
+  font-size: 2rem;
+}
+
+.slider {
+  width: 100%;
+  max-width: 450px;
+  height: 330px;
+  overflow: hidden;
+  display: flex;
+  margin: 3rem auto 2rem;
+  position: relative;
+}
+
+.testimonial {
+  background-color: var(--grey-light);
+  padding: 4rem 1.5rem 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.active {
+  opacity: 1;
+}
+
+.next,
+.prev {
+  opacity: 0.3;
+}
+
+.testimonial img {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: calc(50% - 40px);
+  transform: translateY(-50%);
+}
+
+.testimonial h3 {
+  text-align: center;
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+
+.testimonial p {
+  color: var(--grey);
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.controlBtn {
+  height: 1rem;
+  width: 1rem;
+  border: 2px solid var(--red);
+  border-radius: 50%;
+}
+
+.controlBtn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.activeBtn {
+  background-color: var(--red);
+}
+
+.ctaBtn {
+  background-color: var(--red);
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  box-shadow: var(--cta-shadow);
+  display: block;
+  margin: auto;
+}
+
+.ctaBtn:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    padding: 0 0 3rem;
+  }
+
+  .slider {
+    margin-bottom: 3rem;
+  }
+}

@@ -1,0 +1,25 @@
+.wrap {
+  overflow-x: hidden;
+  background: url('../../images/bg-tablet-pattern.svg') no-repeat top -150px right -200px /
+      500px,
+    url('../../images/bg-tablet-pattern.svg') no-repeat top 18% right -150px / 300px,
+    #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    background: url('../../images/bg-tablet-pattern.svg') no-repeat top -20vw right -20vw /
+        65vw,
+      url('../../images/bg-tablet-pattern.svg') no-repeat top 50% left -40vw / 65vw,
+      #ffffff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrap {
+    background: url('../../images/bg-tablet-pattern.svg') no-repeat top -288px right -288px /
+        939px,
+      url('../../images/bg-tablet-pattern.svg') no-repeat top 70% left -576px / 939px,
+      #ffffff;
+  }
+}
