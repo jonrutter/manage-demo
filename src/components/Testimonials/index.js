@@ -43,42 +43,20 @@ const Testimonials = () => {
           })}
         </div>
         <div className={s.controls}>
-          <button
-            className={
-              activeSlide === 0
-                ? `${s.controlBtn} ${s.activeBtn}`
-                : s.controlBtn
-            }
-            aria-label="Testimonial button"
-            onClick={() => setActiveSlide(0)}
-          ></button>
-          <button
-            className={
-              activeSlide === 1
-                ? `${s.controlBtn} ${s.activeBtn}`
-                : s.controlBtn
-            }
-            aria-label="Testimonial button"
-            onClick={() => setActiveSlide(1)}
-          ></button>
-          <button
-            className={
-              activeSlide === 2
-                ? `${s.controlBtn} ${s.activeBtn}`
-                : s.controlBtn
-            }
-            aria-label="Testimonial button"
-            onClick={() => setActiveSlide(2)}
-          ></button>
-          <button
-            className={
-              activeSlide === 3
-                ? `${s.controlBtn} ${s.activeBtn}`
-                : s.controlBtn
-            }
-            aria-label="Testimonial button"
-            onClick={() => setActiveSlide(3)}
-          ></button>
+          {testimonials.map((testimonial, index) => {
+            const { author } = testimonial;
+            return (
+              <button
+                className={
+                  activeSlide === index
+                    ? `${s.controlBtn} ${s.activeBtn}`
+                    : s.controlBtn
+                }
+                aria-label={`Jump to ${author}'s testimonial`}
+                onClick={() => setActiveSlide(index)}
+              ></button>
+            );
+          })}
         </div>
         <button type="button" className={s.ctaBtn}>
           Get Started

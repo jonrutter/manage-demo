@@ -66,9 +66,12 @@
 .controlBtn {
   height: 1rem;
   width: 1rem;
-  margin-right: 1rem;
   border: 2px solid var(--red);
   border-radius: 50%;
+}
+
+.controlBtn:not(:last-child) {
+  margin-right: 1rem;
 }
 
 .activeBtn {
