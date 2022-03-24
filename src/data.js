@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AvatarAnisha from './images/avatar-anisha.png';
 import AvatarAli from './images/avatar-ali.png';
 import AvatarRichard from './images/avatar-richard.png';
