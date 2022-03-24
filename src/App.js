@@ -1,6 +1,7 @@
 import React from 'react';
 
 // components
+import SkipToContent from './components/SkipToContent';
 import SiteWrap from './components/SiteWrap';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,8 +13,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <SiteWrap>
+      <SkipToContent />
       <Navbar />
-      <main>
+      <main id="main">
         <Hero />
         <Features />
         <Testimonials />
