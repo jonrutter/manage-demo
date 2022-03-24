@@ -47,6 +47,7 @@ const Testimonials = () => {
             const { author } = testimonial;
             return (
               <button
+                key={index}
                 className={
                   activeSlide === index
                     ? `${s.controlBtn} ${s.activeBtn}`
