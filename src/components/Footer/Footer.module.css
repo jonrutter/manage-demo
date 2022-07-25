@@ -49,8 +49,12 @@
   border: 2px solid #fff;
 }
 
+.input:focus {
+  outline: 3px solid var(--red);
+}
+
 .invalid .input {
-  border: 2px solid var(--red);
+  outline: 3px solid var(--red);
   color: var(--red);
 }
 
@@ -84,6 +88,12 @@
   display: flex;
   justify-content: space-evenly;
   min-width: 100%;
+}
+
+.links a,
+.socialLinks a,
+.submit {
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links li {
