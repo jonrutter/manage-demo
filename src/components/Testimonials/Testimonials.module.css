@@ -10,22 +10,16 @@
 
 .slider {
   width: 100%;
-  max-width: 450px;
-  height: 330px;
-  overflow: hidden;
-  display: flex;
-  margin: 3rem auto 2rem;
-  position: relative;
+  max-width: 600px;
 }
 
 .testimonial {
   background-color: var(--grey-light);
   padding: 4rem 1.5rem 2rem;
-  position: absolute;
-  top: 40px;
-  right: 0;
-  left: 0;
   transition: all 0.3s;
+  max-width: 450px;
+  position: relative;
+  margin: 5rem auto 3rem;
 }
 
 .active {
@@ -63,6 +57,20 @@
   margin-bottom: 4rem;
 }
 
+:global(.swiper-pagination-bullet) {
+  height: 1rem !important;
+  width: 1rem !important;
+  border: 2px solid var(--red) !important;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  margin: 0 0.5rem !important;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background-color: var(--red) !important;
+}
+
 .controlBtn {
   height: 1rem;
   width: 1rem;
@@ -87,6 +95,7 @@
   box-shadow: var(--cta-shadow);
   display: block;
   margin: auto;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ctaBtn:hover {

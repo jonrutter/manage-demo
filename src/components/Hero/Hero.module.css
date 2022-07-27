@@ -39,6 +39,7 @@
   padding: 0.75rem 2rem;
   border-radius: 2rem;
   box-shadow: var(--cta-shadow);
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
