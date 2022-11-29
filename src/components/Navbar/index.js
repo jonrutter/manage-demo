@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div className={s.wrapper}>
       <nav className={s.content}>
-        <img className={s.logo} src={SiteLogo} alt="Manage" />
+        <img src={SiteLogo} alt="Manage" width="146" height="24" />
         <ul className={s.links}>
           {links.map((link, index) => {
             const { text, url } = link;

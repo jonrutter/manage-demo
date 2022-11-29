@@ -10,10 +10,6 @@
   line-height: 1;
   max-width: var(--max-width);
   margin: auto;
-}
-
-.logo {
-  display: block;
   padding-top: 0.5rem;
 }
 

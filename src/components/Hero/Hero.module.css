@@ -13,6 +13,7 @@
 
 .right {
   order: 1;
+  max-width: 400px;
 }
 
 .left {
@@ -44,12 +45,6 @@
 
 .btn:hover {
   opacity: 0.5;
-}
-
-.right img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -86,8 +81,7 @@
     max-width: 400px;
     margin-bottom: 2rem;
   }
-
-  .right img {
+  .right {
     max-width: 600px;
   }
 }

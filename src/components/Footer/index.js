@@ -113,7 +113,13 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <img src={SiteLogo} alt="Manage" className={s.logo} />
+        <img
+          src={SiteLogo}
+          alt="Manage"
+          className={s.logo}
+          width="146"
+          height="24"
+        />
         <p className={s.copyright}>
           Copyright {new Date().getFullYear()}. All Rights Reserved.
         </p>

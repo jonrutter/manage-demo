@@ -21,7 +21,7 @@ const Hero = () => {
           <button className={s.btn}>Get Started</button>
         </div>
         <div className={s.right}>
-          <img src={HeroImg} alt="" />
+          <img src={HeroImg} alt="" width="580" height="525" />
         </div>
       </div>
     </div>
