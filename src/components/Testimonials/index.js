@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 // swiper
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { A11y, Pagination } from 'swiper';
-import 'swiper/swiper.scss';
-import 'swiper/modules/a11y/a11y.scss';
-import 'swiper/modules/pagination/pagination.scss';
+import 'swiper/scss';
+import 'swiper/scss/a11y';
+import 'swiper/scss/pagination';
 
 // styles
 import s from './Testimonials.module.css';
