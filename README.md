@@ -2,9 +2,9 @@
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/5b8551fe-3547-4fc5-aa29-bb5e91ae2c38/deploy-status)
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jonrutter-manage-landing.netlify.app/)
-[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/rutterjt/manage-landing-page)
-[![GitHub Stars](https://img.shields.io/github/stars/rutterjt/manage-landing-page.svg)](https://github.com/rutterjt/manage-landing-page/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/rutterjt/manage-landing-page.svg)](https://github.com/rutterjt/manage-landing-page/issues)
+[![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/jonrutter/manage-demo)
+[![GitHub Stars](https://img.shields.io/github/stars/jonrutter/manage-demo.svg)](https://github.com/jonrutter/manage-demo/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/jonrutter/manage-demo.svg)](https://github.com/jonrutter/manage-demo/issues)
 
 This is a demo landing page for a fictional software company, Manage.
 
@@ -22,7 +22,7 @@ This is a demo landing page for a fictional software company, Manage.
 
 ## Description
 
-I built this project as part of FrontEnd Mentor's front-end challenges. The site is a demo landing page for a fictitious web analytics company, Manage.
+The site is a demo landing page for Manage, a fictitious web analytics company. I built this project as part of FrontEnd Mentor's front-end challenges.
 
 ![Preview of the Manage Landing Page project](./github/preview-main.png)
 
@@ -51,7 +51,7 @@ Preview the live demo: [https://jonrutter-manage-landing.netlify.app/](https://j
 
 **Jon Rutter**
 
-- [GitHub Profile](https://www.github.com/rutterjt)
+- [GitHub Profile](https://www.github.com/jonrutter)
 - [Email](mailto:contact@jonrutter.io)
 - [Website](https://www.jonrutter.io)
 
