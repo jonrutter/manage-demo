@@ -24,16 +24,16 @@ This is a demo landing page for a fictional software company, Manage.
 
 The site is a demo landing page for Manage, a fictitious web analytics company. I built this project as part of FrontEnd Mentor's front-end challenges.
 
-![Preview of the Manage Landing Page project](./github/preview-main.png)
+![Preview of the Manage Landing Page project](./.github/preview-main.png)
 
 <br />
 
 The site features a fully mobile responsive design, with interactive components.
 
-![Preview of the Manage Landing Page project](./github/preview-slider.png)
+![Preview of the Manage Landing Page project](./.github/preview-slider.png)
 
 <div>
-  <img src="./github/preview-mobile-nav.png" alt="Preview of mobile design" width="300px" />
+  <img src="./.github/preview-mobile-nav.png" alt="Preview of mobile design" width="300px" />
 </div>
 
 <br />
@@ -44,8 +44,9 @@ Preview the live demo: [https://jonrutter-manage-landing.netlify.app/](https://j
 
 ## Built with
 
-- [React](https://reactjs.org/)
-- CSS Modules
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Author
 
