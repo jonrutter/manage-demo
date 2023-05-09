@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import { Be_Vietnam_Pro } from '@next/font/google';
+import { Be_Vietnam_Pro } from 'next/font/google';
 
 const beVietnamProFont = Be_Vietnam_Pro({
   subsets: ['latin'],
